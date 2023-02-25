@@ -1,0 +1,11 @@
+import { Image } from 'react-native'
+import React from 'react'
+
+export default function ImagePokeBall() {
+    return (
+        <Image
+            source={require('../assets/pokeball.png')}
+            style={{ width: 75, height: 75, top: -18 }}
+        />
+    )
+}
